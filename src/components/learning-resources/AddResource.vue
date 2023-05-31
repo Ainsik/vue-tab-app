@@ -55,9 +55,9 @@ export default {
 			const enteredUrl = this.$refs.linkInput.value;
 
 			if (
-				enteredTitle.Trim() === "" ||
-				enteredDescription.Trim() === "" ||
-				enteredUrl.Trim() === ""
+				enteredTitle.trim() === "" ||
+				enteredDescription.trim() === "" ||
+				enteredUrl.trim() === ""
 			) {
 				this.inputIsInvalid = true;
 				return;
